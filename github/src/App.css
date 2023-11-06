@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background-image: url("./Image/star.svg");
+  background-repeat: no-repeat;
+  /* overflow-y:hidden;  */
+  width: 110vw;
+  height: 230vh;
+  /* object-fit: fil; */
+  background-size: 100%;
+  /* background-position-x: -30rem; */
+  position: relative;
+  z-index: -2;
+}

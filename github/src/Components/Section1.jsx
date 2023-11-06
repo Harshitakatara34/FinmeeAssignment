@@ -7,25 +7,25 @@ import React from 'react'
 const Section1 = () => {
   return (
     <>
- <div style={{height:"400px",width:"85%",marginTop:"600px",marginLeft:"180px",border:"10px solid red"}}>
-    <div style={{height:"100px",width:"70%",border:"1px solid white",borderRadius:"40px",border:"10px solid green"}}>
-    <div style={{margin:"auto",marginLeft:"100px"}}>
-    <h1 style={{color:"white",fontSize:"20px"}}>Github Universe : Dive into AI,security ,and DevEx</h1>
-<p style={{color:"grey",fontSize:"20px",lineHeight:"0px"}}>Get your tickets now to join us on 8-9</p>
+ <div style={{height:"400px",width:"70%",marginTop:"460px",marginLeft:"200px"}}>
+    <div style={{height:"70px",width:"50%",border:"1px solid white",borderRadius:"40px",marginTop:"40px"}}>
+    <div style={{margin:"auto",marginLeft:"100px",lineHeight:"15px",marginTop:"15px"}}>
+    <p style={{color:"white",fontSize:"17px",fontWeight:"500"}}>Github Universe : Dive into AI,security ,and DevEx</p>
+<p style={{color:"grey",fontSize:"20px",lineHeight:"15px",marginTop:"5px"}}>Get your tickets now to join us on 8-9</p>
    
     </div>
    
  </div>
 <div style={{lineHeight:"50px",marginTop:"50px"}}>
-<Heading color="white" fontSize={"80px"} marginTop="10px">Let's build from here</Heading>
-<p style={{color:"grey",fontSize:"40px",marginTop:"0px"}}>
+<Heading color="white" fontSize={"85px"} marginTop="10px">Let's build from here</Heading>
+<p style={{color:"grey",fontSize:"40px",marginTop:"50px"}}>
 The AI-powered developer platform to build, scale, and deliver secure software.</p>
 
 </div>
-<div style={{display:"flex",justifyContent:"space-between"}}>
-<div style={{ display: "flex", flexDirection: "row", width: "600px", height: "70px" }}>
-  <div style={{ backgroundColor: "white", flex: "3", borderRadius: "5px" }}></div>
-  <div style={{ backgroundColor: "#763FC6", flex: "1.5", borderTopRightRadius: "5px", borderBottomRightRadius: "5px", marginLeft: "-100px" }}></div>
+<div style={{display:"flex",justifyContent:"space-between",marginTop:"50px"}}>
+<div style={{ display: "flex", flexDirection: "row", width: "600px", height: "60px" }}>
+  <div style={{ backgroundColor: "white", flex: "3", borderRadius: "10px" }}></div>
+  <div style={{ backgroundColor: "#763FC6", flex: "1.5", borderTopRightRadius: "10px", borderBottomRightRadius: "5px", marginLeft: "-100px" }}></div>
 </div>
 
 <Divider/>
@@ -59,8 +59,7 @@ The AI-powered developer platform to build, scale, and deliver secure software.<
             >
               Accelerate high-quality software development.{" "}
               <span style={{ color: "white" }}>
-              Our AI-powered platform drives innovation with tools that boost developer velocity.
-              
+              Our AI-powered platform drives innovation with tools that boost developer velocity.   
               </span>
             </Typography>
            <img src="https://github.githubassets.com/images/modules/site/codespaces/illo-ports.png"/>

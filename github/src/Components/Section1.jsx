@@ -7,8 +7,8 @@ import React from 'react'
 const Section1 = () => {
   return (
     <>
- <div style={{height:"400px",width:"85%",marginTop:"600px",marginLeft:"180px"}}>
-    <div style={{height:"100px",width:"70%",border:"1px solid white",borderRadius:"40px"}}>
+ <div style={{height:"400px",width:"85%",marginTop:"600px",marginLeft:"180px",border:"10px solid red"}}>
+    <div style={{height:"100px",width:"70%",border:"1px solid white",borderRadius:"40px",border:"10px solid green"}}>
     <div style={{margin:"auto",marginLeft:"100px"}}>
     <h1 style={{color:"white",fontSize:"20px"}}>Github Universe : Dive into AI,security ,and DevEx</h1>
 <p style={{color:"grey",fontSize:"20px",lineHeight:"0px"}}>Get your tickets now to join us on 8-9</p>

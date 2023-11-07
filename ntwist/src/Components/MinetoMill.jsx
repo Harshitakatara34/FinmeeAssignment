@@ -1,5 +1,6 @@
 import React from "react";
-import  "../css/minetomill.css";
+import "../css/minetomill.css";
+
 export const MinetoMill = () => {
   return (
     <>
@@ -23,7 +24,11 @@ export const MinetoMill = () => {
           </p>
           <button>Read More</button>
         </div>
-        <img className="rightdiv2" src="https://ntwist.com/wp-content/uploads/2023/01/iStock-1339284457-2048x1365.jpg" />
+        <img
+          className="rightdiv2"
+          src="https://ntwist.com/wp-content/uploads/2023/01/iStock-1339284457-2048x1365.jpg"
+          style={{ margin: "auto 20px" }}
+        />
       </div>
 
       <div
@@ -34,7 +39,11 @@ export const MinetoMill = () => {
           padding: "50px",
         }}
       >
-        <img className="rightdiv2" src="https://ntwist.com/wp-content/uploads/2021/12/iStock-1284372575.jpg" />
+        <img
+          className="rightdiv2"
+          src="https://ntwist.com/wp-content/uploads/2021/12/iStock-1284372575.jpg"
+          style={{ margin: "auto 20px" }}
+        />
         <div className="leftdiv2">
           <h1>Sustainability</h1>
           <p>
@@ -69,7 +78,11 @@ export const MinetoMill = () => {
           </p>
           <button>Read More</button>
         </div>
-        <img className="rightdiv2" src="https://ntwist.com/wp-content/uploads/2021/12/iStock-1322302283.jpg" />
+        <img
+          className="rightdiv2"
+          src="https://ntwist.com/wp-content/uploads/2021/12/iStock-1322302283.jpg"
+          style={{ margin: "auto 20px" }}
+        />
       </div>
 
       <div
@@ -80,7 +93,11 @@ export const MinetoMill = () => {
           padding: "50px",
         }}
       >
-        <img className="rightdiv2" src="https://ntwist.com/wp-content/uploads/2022/03/2021-02-oil-and-gas-digital-hero-e1648984580884.png" />
+        <img
+          className="rightdiv2"
+          src="https://ntwist.com/wp-content/uploads/2022/03/2021-02-oil-and-gas-digital-hero-e1648984580884.png"
+          style={{ margin: "auto 20px" }}
+        />
         <div className="leftdiv2">
           <h1>Oil & Gas</h1>
           <p>
